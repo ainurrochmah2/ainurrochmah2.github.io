@@ -1,24 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <style>  
-    th, td, tr{
-      border-bottom: 1px solid rgb(145, 145, 145);
-    }
-    div {
-      background-color: rgba(245, 245, 245, 0.7);
-      width: 700px;
-      padding: 20px;
-      margin: 20px;
-        }
+    <style>
+      .bar ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #333;
+          }
+
+      .bar li {
+          float: left;
+          }
+
+      .bar li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          }
+
+      .bar li a:hover {
+          background-color: #111;
+          }    
+
+      th, td, tr{
+          border-bottom: 1px solid rgb(145, 145, 145);
+          }
+      .kotakk {
+          background-color: rgba(245, 245, 245, 0.7);
+          width: 600px;
+          padding: 20px;
+          margin: 20px;
+          }
     </style>
         <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <a href="index.html">Biodata</a>
-  <a href="#">Portofolio</a>
+  <div class="bar">
+    <ul>
+      <li><a href="index.html">Biodata</a></li>
+      <li><a href="#">Portofolio</a></li>
+    </ul>
+  </div>
+  
 
-    <div><h1 title="Header 1">Portofolio Saya</h1>
+    <div class="kotakk"><h1 title="Header 1">Portofolio Saya</h1>
     <p>Berikut adalah portofolio (pengalaman) saya dalam 4 tahun terakhir:</p>
     <table>
         <tr align="center">
