@@ -1,98 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <style>
-      .bar ul {
-          list-style-type: none;
-          margin: 0;
-          padding: 0;
-          overflow: hidden;
-          background-color: #333;
-          }
-
-      .bar li {
-          float: left;
-          }
-
-      .bar li a {
-          display: block;
-          color: white;
-          text-align: center;
-          padding: 14px 16px;
-          text-decoration: none;
-          }
-
-      .bar li a:hover {
-          background-color: #111;
-          }    
-
-      th, td, tr{
-          border-bottom: 1px solid rgb(145, 145, 145);
-          }
-      .kotakk {
-          background-color: rgba(245, 245, 245, 0.7);
-          width: 600px;
-          padding: 20px;
-          margin: 20px;
-          }
-    </style>
+  <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Portofolio Ainur</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
 </head>
 <body>
-  <div class="bar">
-    <ul>
-      <li><a href="index.html">Biodata</a></li>
-      <li><a href="#">Portofolio</a></li>
-    </ul>
-  </div>
-  
-
-    <div class="kotakk"><h1 title="Header 1">Portofolio Saya</h1>
-    <p>Berikut adalah portofolio (pengalaman) saya dalam 4 tahun terakhir:</p>
-    <table>
-        <tr align="center">
-          <th>Tahun</th>
-          <th>Jenis Kegiatan</th>
-          <th>Bukti Kegiatan</th>
-        </tr>
-        <tr>
-            <td align="center">2022 - sekarang</td>
-            <td><ol>
-                <li>Peserta SIB Seal Batch 3 2022</li>
-                <li>Sekretaris Divisi Public Relation sub bidang Muslim Studi FEB UM</li>
-                <li>Anggota Volunteer Lomba Mewarnai DT Peduli x Matos Malang</li>
-            </ol>
-            </td>
-            <td align="center">
-                <br><img src="foto SIB.jpg" width="100">
-                <br><img src="Sekdiv PR.jpg" width="100">
-                <br><img src="foto LM.jpeg" width="100">
-                <p></p>
-            </td>
-          </tr>
-          <tr>
-            <td align="center">2020 - 2021</td>
-            <td><ol>
-              <li>Staff Divisi Public Relation sub bidang Muslim Studi FEB UM</li>
-              <li>Anggota Volunteer Aku Peduli 2021</li>
-              <li>Freelancer Design Graphic Aldrass Design & Printing</li>
-            </ol>
-              </td>
-            <td align="center">
-                <br><img src="foto MS.jpeg" width="100">
-                <br><img src="Sertif akupeduli.png" width="100">
-                <br><img src="logo Aldrass.jpeg" width="100">
-                <p></p>
-            </td>
-          </tr>
-          <tr>
-          <td align="center">2018 - 2019</td>
-          <td>Staff PKL Design Graphic PT Restu Ibu Grup SMKN 4 Malang</td>
-          <td align="center"><br><img src="Sertif PKL.jpeg" width="100">
-          <p></p></td>
-        </tr>
-      </table></div>
-      <br></br>
+  <nav class="navbar navbar-expand-lg bg-light shadow p-2 mb-5 bg-body rounded sticky-top">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link fw-semibold" href="index.html">Biodata</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-semibold active" href="#">Portofolio</a>
+          </li>
+        </ul>
+      </div>
     </div>
+</nav>
+
+<div class="container text-center">
+  <div class="row">
+      <div class="col-atas fs-5 fw-semibold mb-3">
+        Portofolio Ainur Rochmah
+      </div>
+</div>
+
+<div class="album py-3 bg-light">
+  <div class="container">
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      <div class="col">
+        <div class="card shadow-sm">
+          <img class="image-porto bd-placeholder-img card-img-top" src="foto sib.jpg" role="img" aria-label="Placeholder: Thumbnail">
+
+          <div class="card-body">
+            <p class="card-text">Peserta Studi Independen Bersertifikat SEAL Batch 3 2022</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <small class="text-muted">2022</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="image-porto bd-placeholder-img card-img-top" src="Sekdiv PR.jpg" role="img" aria-label="Placeholder: Thumbnail">
+  
+            <div class="card-body">
+              <p class="card-text">Sekretaris Divisi Public Relation sub bidang Muslim Studi FEB Universitas Negeri Malang</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted">2022</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="image-porto bd-placeholder-img card-img-top" src="foto LM.jpeg" role="img" aria-label="Placeholder: Thumbnail">
+  
+            <div class="card-body">
+              <p class="card-text">Anggota Volunteer Lomba Mewarnai DT Peduli x Matos Malang</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted">2022</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="image-porto bd-placeholder-img card-img-top" src="foto MS.jpeg" role="img" aria-label="Placeholder: Thumbnail">
+  
+            <div class="card-body">
+              <p class="card-text">Staff Divisi Public Relation sub bidang Muslim Studi FEB UM</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted">2020-2021</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="image-porto bd-placeholder-img card-img-top" src="Sertif akupeduli.png" role="img" aria-label="Placeholder: Thumbnail">
+  
+            <div class="card-body">
+              <p class="card-text">Anggota Volunteer Campaign "Ayo Jaga Lingkungan Kita" 2021</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted">2021</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="image-porto bd-placeholder-img card-img-top" src="logo Aldrass.jpeg" role="img" aria-label="Placeholder: Thumbnail">
+  
+            <div class="card-body">
+              <p class="card-text">Freelancer Design Graphic Aldrass Design & Printing</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted">2020-2021</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="image-porto bd-placeholder-img card-img-top" src="Sertif PKL.jpeg" role="img" aria-label="Placeholder: Thumbnail">
+  
+            <div class="card-body">
+              <p class="card-text">Staff PKL Graphic Designer PT Restu Ibu Grup SMK Negeri 4 Malang</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted">2018-2019</small>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+  </div>
+</main>
+
+      <div class="container mb-3">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+              <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-muted">&copy; 2022</span>
+          </div>
+      
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            Kontak Saya
+            <li class="ms-3"><a class="text-muted" href="https://t.me/ainurrochmah2"><i class="bi bi-telegram"></i></a></li>
+            <li class="ms-3"><a class="text-muted" href="https://instagram.com/ainurcmh_"><i class="bi bi-instagram"></i></a></li>
+            <li class="ms-3"><a class="text-muted" href="https://facebook.com/profile.php?id=100006216345279"><i class="bi bi-facebook"></i></a></li>
+          </ul>
+        </footer>
+      </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    
   </body>
 </html>
